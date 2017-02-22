@@ -12,6 +12,13 @@
 		11A399491E5CE77D0072B619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A399471E5CE77D0072B619 /* Main.storyboard */; };
 		11A3994B1E5CE77D0072B619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A3994A1E5CE77D0072B619 /* Assets.xcassets */; };
 		11A3994E1E5CE77D0072B619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A3994C1E5CE77D0072B619 /* LaunchScreen.storyboard */; };
+		11A399561E5DC3980072B619 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A399551E5DC3970072B619 /* UIButton+Extensions.swift */; };
+		11A3995B1E5DCA680072B619 /* rightArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A399581E5DCA680072B619 /* rightArrow@3x.png */; };
+		11A3995C1E5DCA680072B619 /* rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A399591E5DCA680072B619 /* rightArrow@2x.png */; };
+		11A3995D1E5DCA680072B619 /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A3995A1E5DCA680072B619 /* rightArrow.png */; };
+		11A3995F1E5DD81E0072B619 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3995E1E5DD81E0072B619 /* UIImage+Extensions.swift */; };
+		11A399651E5DF1000072B619 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A399641E5DF1000072B619 /* ReviewViewController.swift */; };
+		11A3996B1E5E00C90072B619 /* auto-158479_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A3996A1E5E00C90072B619 /* auto-158479_640.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		11A3994A1E5CE77D0072B619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A3994D1E5CE77D0072B619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11A3994F1E5CE77D0072B619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A399551E5DC3970072B619 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		11A399581E5DCA680072B619 /* rightArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow@3x.png"; sourceTree = "<group>"; };
+		11A399591E5DCA680072B619 /* rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow@2x.png"; sourceTree = "<group>"; };
+		11A3995A1E5DCA680072B619 /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
+		11A3995E1E5DD81E0072B619 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		11A399641E5DF1000072B619 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		11A3996A1E5E00C90072B619 /* auto-158479_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "auto-158479_640.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +70,27 @@
 			children = (
 				11A399431E5CE77D0072B619 /* AppDelegate.swift */,
 				11A399451E5CE77D0072B619 /* ViewController.swift */,
+				11A399641E5DF1000072B619 /* ReviewViewController.swift */,
 				11A399471E5CE77D0072B619 /* Main.storyboard */,
 				11A3994A1E5CE77D0072B619 /* Assets.xcassets */,
 				11A3994C1E5CE77D0072B619 /* LaunchScreen.storyboard */,
 				11A3994F1E5CE77D0072B619 /* Info.plist */,
+				11A399551E5DC3970072B619 /* UIButton+Extensions.swift */,
+				11A3995E1E5DD81E0072B619 /* UIImage+Extensions.swift */,
+				11A399571E5DCA5A0072B619 /* images */,
 			);
 			path = UIButtonRightArrow;
+			sourceTree = "<group>";
+		};
+		11A399571E5DCA5A0072B619 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				11A3996A1E5E00C90072B619 /* auto-158479_640.png */,
+				11A399581E5DCA680072B619 /* rightArrow@3x.png */,
+				11A399591E5DCA680072B619 /* rightArrow@2x.png */,
+				11A3995A1E5DCA680072B619 /* rightArrow.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +126,7 @@
 					11A3993F1E5CE77D0072B619 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = T6TG5W96HH;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,9 +154,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A3995B1E5DCA680072B619 /* rightArrow@3x.png in Resources */,
 				11A3994E1E5CE77D0072B619 /* LaunchScreen.storyboard in Resources */,
+				11A3995C1E5DCA680072B619 /* rightArrow@2x.png in Resources */,
 				11A3994B1E5CE77D0072B619 /* Assets.xcassets in Resources */,
+				11A3995D1E5DCA680072B619 /* rightArrow.png in Resources */,
 				11A399491E5CE77D0072B619 /* Main.storyboard in Resources */,
+				11A3996B1E5E00C90072B619 /* auto-158479_640.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A399461E5CE77D0072B619 /* ViewController.swift in Sources */,
+				11A399561E5DC3980072B619 /* UIButton+Extensions.swift in Sources */,
+				11A399651E5DF1000072B619 /* ReviewViewController.swift in Sources */,
 				11A399441E5CE77D0072B619 /* AppDelegate.swift in Sources */,
+				11A3995F1E5DD81E0072B619 /* UIImage+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T6TG5W96HH;
 				INFOPLIST_FILE = UIButtonRightArrow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lawrencem.UIButtonRightArrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T6TG5W96HH;
 				INFOPLIST_FILE = UIButtonRightArrow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lawrencem.UIButtonRightArrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +341,7 @@
 				11A399541E5CE77D0072B619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
