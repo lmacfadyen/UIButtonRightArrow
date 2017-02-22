@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
+        view.layoutIfNeeded()
         buttonSelect.disclosureButton(baseColor: view.tintColor)
     }
     
