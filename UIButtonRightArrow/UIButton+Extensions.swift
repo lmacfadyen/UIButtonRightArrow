@@ -23,7 +23,7 @@ extension UIButton
         {
             return
         }
-        guard let imageHighlight = UIImage(named: "disclosureIcon")?.alpha(0.3).withRenderingMode(.alwaysTemplate) else
+        guard let imageHighlight = UIImage(named: "disclosureIcon")?.alpha(0.3)?.withRenderingMode(.alwaysTemplate) else
         {
             return
         }
